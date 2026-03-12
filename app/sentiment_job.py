@@ -1,5 +1,5 @@
 import os
-from app.engagement_job import run_engagement_job
+from engagement_job import run_engagement_job
 import snowflake.connector
 
 def run_sentiment_job():
